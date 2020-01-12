@@ -31,5 +31,13 @@
   "bugs": {
     "url": "https://github.com/Iamsuler/movies/issues"
   },
-  "homepage": "https://github.com/Iamsuler/movies#readme"
+  "homepage": "https://github.com/Iamsuler/movies#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
